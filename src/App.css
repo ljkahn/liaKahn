@@ -1,3 +1,25 @@
-#root {
-  background-color: white;
+:root {
+  --background: black;
+  --text: white;
+
+}
+
+#root{
+  min-height: 100vh;
+  color: var(--text)
+  ;
+}
+
+/* HEADER */
+
+
+img.personal {
+  height: 5rem;
+  border-radius: 7rem;
+}
+
+/*ABOUT*/
+
+.about {
+  text-align: center;
 }
