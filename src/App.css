@@ -16,10 +16,71 @@
 img.personal {
   height: 5rem;
   border-radius: 7rem;
+  margin-left: 3rem;
+  margin-top: 3rem;
 }
 
 /*ABOUT*/
 
 .about {
   text-align: center;
+  margin-top: 8rem;
+  margin-bottom: 10rem;
+  
+}
+
+.work{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  margin-bottom: 2rem;
+  margin-right: 1rem;
+  
+  
+}
+
+img.work {
+  width: 15rem;
+  height: 10rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 1.5rem;
+  margin-right: 2rem;
+}
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #ffffff;
+}
+
+
+.linkedin {
+  background: #3b3b3b;
+  color: white;
+}
+
+.instagram {
+  background: #3b3b3b;
+  color: white;
 }
