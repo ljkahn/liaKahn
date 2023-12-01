@@ -31,7 +31,7 @@ function About() {
                   className="work portfolio"
                 />
                 <Card.Body>
-                  <Card.Text>Blurb</Card.Text>
+                  <Card.Text className="card-text">Blurb</Card.Text>
                 </Card.Body>
               </Card>
             </a>
@@ -45,7 +45,7 @@ function About() {
                   className="work portfolio"
                 />
                 <Card.Body>
-                  <Card.Text>Austyn Cody</Card.Text>
+                  <Card.Text className="card-text">Austyn Cody</Card.Text>
                 </Card.Body>
               </Card>
             </a>
@@ -59,7 +59,9 @@ function About() {
                   className="work portfolio"
                 />
                 <Card.Body>
-                  <Card.Text>Little Site Of Horrors</Card.Text>
+                  <Card.Text className="card-text">
+                    Little Site Of Horrors
+                  </Card.Text>
                 </Card.Body>
               </Card>
             </a>

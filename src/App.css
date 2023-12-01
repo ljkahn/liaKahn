@@ -174,6 +174,38 @@ img.work {
   background-color: #555;
 }
 
+@media screen and (max-width: 1870px) {
+  .main-container {
+    width: 80%;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .about {
+      margin-top: 4rem;
+      margin-bottom: 3rem;
+      font-size: x-small;
+      margin-left: 1.5rem;
+      margin-right: 3rem;
+      text-align: center;
+    }
+  
+    .work {
+      align-items: center;
+    }
+  
+    .card {
+      display: flex;
+      flex-direction: column;
+      margin: 1rem;
+      width: 22rem
+    }
+    .card-text{
+      font-size: x-small;
+    }
+}
+
 @media (max-width: 576px) {
   img.personal {
     margin-left: 1rem;
@@ -185,7 +217,7 @@ img.work {
     margin-top: 4rem;
     margin-bottom: 3rem;
     font-size: x-small;
-    margin-left: 1.5rem;
+    margin-left: 1rem;
     margin-right: 3rem;
     text-align: center;
   }
