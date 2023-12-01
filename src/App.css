@@ -1,13 +1,13 @@
 :root {
-  --background: black;
+  --background: rgb(20, 20, 20);
   --text: white;
 
 }
 
 .root{
   min-height: 100vh;
-  color: var(--background);
-  background-color: var(--text);
+  color: var(--text);
+  background-color: var(--background);
   ;
 }
 
@@ -16,7 +16,6 @@
 
 img.personal {
   height: 5rem;
-  border-radius: 7rem;
   margin-left: 3rem;
   margin-top: 3rem;
 }
@@ -81,7 +80,7 @@ img.work {
   text-decoration: none;
   text-transform: uppercase;
   padding: 10px;
-  font-size: 22px;
+  font-size: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   transition: all 0.8s;
 }
@@ -173,4 +172,51 @@ img.work {
 
 #myBtn:hover {
   background-color: #555;
+}
+
+@media (max-width: 576px) {
+  img.personal {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    height:2rem;
+  }
+
+  .about {
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    font-size: x-small;
+    margin-left: 1.5rem;
+    margin-right: 3rem;
+    text-align: center;
+  }
+
+  .work {
+    align-items: center;
+  }
+
+  .card {
+    margin: 1rem;
+    width:22rem
+  }
+
+  img.work {
+    width: 20rem;
+    height: auto;
+    margin:1rem 1rem;
+    border-radius: 4%;
+  }
+    .sticky-icon {
+      position: fixed;
+      top: 1rem;
+      right: 1rem;
+      justify-content: flex-start;
+      flex-direction: row;
+      /* Change to column to make icons face down */
+    }
+  
+    .sticky-icon a {
+      transform: translateX(20px);
+      /* Adjust the translation for spacing */
+      margin: 2px;
+    }
 }
