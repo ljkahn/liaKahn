@@ -24,7 +24,7 @@ function About() {
         <Row className="text-align-center">
           <Col md={4}>
             <a href="https://blurb4-web-6d7dbae39646.herokuapp.com/home">
-              <Card className="card">
+              <Card className="root card">
                 <Card.Img
                   variant="top"
                   src={Blurb}
@@ -38,7 +38,7 @@ function About() {
           </Col>
           <Col md={4}>
             <a href="https://blurb4-web-6d7dbae39646.herokuapp.com/home">
-              <Card className="card">
+              <Card className="root card">
                 <Card.Img
                   variant="top"
                   src={austynCody}
@@ -52,7 +52,7 @@ function About() {
           </Col>
           <Col md={4}>
             <a href="https://little-site-of-horrors-1-f45120ac21d1.herokuapp.com/">
-              <Card className="card">
+              <Card className="root card">
                 <Card.Img
                   variant="top"
                   src={Horrors}
