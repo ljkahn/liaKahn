@@ -6,8 +6,8 @@
 
 .root{
   min-height: 100vh;
-  color: var(--text);
-  background-color: var(--background);
+  color: var(--background);
+  background-color: var(--text);
   ;
 }
 
