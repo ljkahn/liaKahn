@@ -32,10 +32,7 @@ function About() {
                   className="work portfolio"
                 />
                 <Card.Body>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </Card.Text>
+                  <Card.Text>Blurb</Card.Text>
                 </Card.Body>
               </Card>
             </a>
@@ -49,10 +46,7 @@ function About() {
                   className="work portfolio"
                 />
                 <Card.Body>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </Card.Text>
+                  <Card.Text>Austyn Cody</Card.Text>
                 </Card.Body>
               </Card>
             </a>
@@ -66,10 +60,7 @@ function About() {
                   className="work portfolio"
                 />
                 <Card.Body>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </Card.Text>
+                  <Card.Text>Little Site Of Horrors</Card.Text>
                 </Card.Body>
               </Card>
             </a>
