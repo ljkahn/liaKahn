@@ -5,6 +5,7 @@ import austynCody from "../assets/workImages/austynCody.png";
 import Blurb from "../assets/workImages/Blurb.png";
 import Horrors from "../assets/workImages/littleSiteOfHorrors.png";
 import Card from "react-bootstrap/Card";
+import Button from "react-bootstrap/Button";
 
 function About() {
   return (
@@ -31,7 +32,14 @@ function About() {
                   className="work portfolio"
                 />
                 <Card.Body>
-                  <Card.Text className="card-text">Blurb</Card.Text>
+                  <Card.Text className="card-text">
+                    <Button href="https://blurb4-web-6d7dbae39646.herokuapp.com/">
+                      Blurb
+                    </Button>{" "}
+                    <Button href="https://blurb4-web-6d7dbae39646.herokuapp.com/">
+                      Blurb
+                    </Button>{" "}
+                  </Card.Text>
                 </Card.Body>
               </Card>
             </a>

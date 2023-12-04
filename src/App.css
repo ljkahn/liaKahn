@@ -45,6 +45,11 @@ img.personal {
   
 }
 
+.button {
+  background-color: #555;
+  color: #FFF;
+}
+
 img.work {
   width: 29rem;
   height: 20rem;
@@ -180,30 +185,31 @@ img.work {
   }
 }
 
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1688px) {
   .about {
-      margin-top: 4rem;
-      margin-bottom: 3rem;
-      font-size: x-small;
-      margin-left: 1.5rem;
-      margin-right: 3rem;
-      text-align: center;
-    }
-  
-    .work {
-      align-items: center;
-    }
-  
-    .card {
-      display: flex;
-      flex-direction: column;
-      margin: 1rem;
-      width: 22rem
-    }
-    .card-text{
-      font-size: x-small;
-    }
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    font-size: x-small;
+    margin-left: 1.5rem;
+    margin-right: 3rem;
+    text-align: center;
+  }
+
+  .work {
+    align-items: center;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    /* Change to column to make cards stack vertically */
+    margin: 1rem;
+    width: 22rem;
+  }
+
+  .card-text {
+    font-size: x-small;
+  }
 }
 
 @media (max-width: 576px) {
