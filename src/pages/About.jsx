@@ -31,11 +31,23 @@ function About() {
             >
               <Card.Img variant="top" src={Blurb} className="work portfolio" />
               <Card.Body>
-                <Card.Text className="card-text">
-                  <Button variant="outline-light" className="btn">
-                    Deployed
-                  </Button>
-                  <Button variant="outline-light">Github</Button>
+                <Card.Text className="btn card-text">
+                  <a
+                    href="https://blurb4-web-6d7dbae39646.herokuapp.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Button variant="outline-light" className="btn">
+                      Deployed
+                    </Button>
+                  </a>
+                  <a
+                    href="https://github.com/ljkahn/Blurb"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Button variant="outline-light">Github</Button>
+                  </a>
                 </Card.Text>
               </Card.Body>
             </Card>
