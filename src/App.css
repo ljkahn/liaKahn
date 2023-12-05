@@ -87,7 +87,7 @@ img.work {
 .sticky-icon {
   z-index: 1;
   position: fixed;
-  top: 15%;
+  top: 30%;
   right: 0%;
   width: 220px;
   display: flex;
@@ -234,4 +234,14 @@ img.work {
     margin-left: 1rem;
     
   }
+
+.sticky-icon {
+  z-index: 1;
+  position: fixed;
+  top: 60%;
+  right: 0%;
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+}
 }
