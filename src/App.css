@@ -37,6 +37,11 @@ img.personal {
 
 /*WORK CARDS*/
 
+.card-body {
+  display: flex;
+  justify-content: center;
+}
+
 .work-card {
   background-color: var(--background);
   width: 31rem;
@@ -55,6 +60,8 @@ background-color: var(--background);
 .btn {
 display: flex;
 flex-direction: column;
+font-size: xx-small;
+
 }
 
 img.work {
@@ -62,7 +69,7 @@ img.work {
   height: 20rem;
   margin-top: 1rem;
   margin-left: 1rem;
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
   margin-right: 1rem;
   border-radius: 4%;
 
@@ -216,13 +223,13 @@ img.work {
 
   img.work {
     width: 20rem;
-    height: auto;
+    height: 15rem;
     margin: 1rem;
     border-radius: 4%;
   }
 
   .personal {
-    height: 3rem;
+    height: 2rem;
     margin-left: 1rem;
     margin-top: 1rem;
   }

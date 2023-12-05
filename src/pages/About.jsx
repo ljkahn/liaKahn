@@ -1,7 +1,7 @@
 import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import austynCody from "../assets/workImages/austynCody.png";
+import austynCody from "../assets/workImages/austynCody.jpg";
 import Blurb from "../assets/workImages/Blurb.png";
 import Horrors from "../assets/workImages/littleSiteOfHorrors.png";
 import Card from "react-bootstrap/Card";
@@ -24,66 +24,82 @@ function About() {
       <div className="work main-container">
         <Row className="text-align-center">
           <Col md={6}>
-            <a href="https://blurb4-web-6d7dbae39646.herokuapp.com/home">
-              <Card
-                className="work-card"
-                style={{ backgroundColor: "rgb(20, 20, 20)" }}
-              >
-                <Card.Img
-                  variant="top"
-                  src={Blurb}
-                  className="work portfolio"
-                />
-                <Card.Body>
-                  <Card.Text className="card-text">
-                    <Button variant="dark">Blurb</Button>
-                    <Button variant="dark">Github</Button>
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </a>
+            <Card
+              className="work-card"
+              style={{ backgroundColor: "rgb(20, 20, 20)" }}
+            >
+              <Card.Img variant="top" src={Blurb} className="work portfolio" />
+              <Card.Body>
+                <Card.Text className="card-text">
+                  <Button variant="outline-light" className="btn">
+                    Deployed
+                  </Button>
+                  <Button variant="outline-light">Github</Button>
+                </Card.Text>
+              </Card.Body>
+            </Card>
           </Col>
           <Col md={6}>
-            <a href="https://blurb4-web-6d7dbae39646.herokuapp.com/home">
-              <Card
-                className="work-card"
-                style={{ backgroundColor: "rgb(20, 20, 20)" }}
-              >
-                <Card.Img
-                  variant="top"
-                  src={austynCody}
-                  className="work portfolio"
-                />
-                <Card.Body>
-                  <Card.Text className="btn card-text">
-                    <Button variant="dark">Dark</Button>
-                    <Button variant="dark">Dark</Button>
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </a>
+            <Card
+              className="work-card"
+              style={{ backgroundColor: "rgb(20, 20, 20)" }}
+            >
+              <Card.Img
+                variant="top"
+                src={austynCody}
+                className="work portfolio"
+              />
+              <Card.Body>
+                <Card.Text className="btn card-text">
+                  <a href="" target="_blank" rel="noopener noreferrer">
+                    <Button variant="outline-light" className="btn">
+                      Deployed
+                    </Button>
+                  </a>
+                  <a
+                    href="https://github.com/ljkahn/austynCody"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Button variant="outline-light">Github</Button>
+                  </a>
+                </Card.Text>
+              </Card.Body>
+            </Card>
           </Col>
         </Row>
         <Row>
           <Col md={6}>
-            <a href="https://little-site-of-horrors-1-f45120ac21d1.herokuapp.com/">
-              <Card
-                className="work-card"
-                style={{ backgroundColor: "rgb(20, 20, 20)" }}
-              >
-                <Card.Img
-                  variant="top"
-                  src={Horrors}
-                  className="work portfolio"
-                />
-                <Card.Body>
-                  <Card.Text className="btn card-text">
-                    <Button variant="dark">Dark</Button>
-                    <Button variant="dark">Dark</Button>
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </a>
+            <Card
+              className="work-card"
+              style={{ backgroundColor: "rgb(20, 20, 20)" }}
+            >
+              <Card.Img
+                variant="top"
+                src={Horrors}
+                className="work portfolio"
+              />
+              <Card.Body>
+                <Card.Text className="btn card-text">
+                  <a
+                    href="https://little-site-of-horrors-1-f45120ac21d1.herokuapp.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Button variant="outline-light" className="btn">
+                      Deployed
+                    </Button>
+                  </a>
+                  <a
+                    href="https://github.com/ljkahn/littleSiteOfHorrors"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Button variant="outline-light">Github</Button>
+                  </a>
+                </Card.Text>
+              </Card.Body>
+            </Card>
           </Col>
           <Col md={6}>
             <a href="https://little-site-of-horrors-1-f45120ac21d1.herokuapp.com/">
@@ -98,8 +114,10 @@ function About() {
                 />
                 <Card.Body>
                   <Card.Text className="card-text">
-                    <Button variant="dark">Dark</Button>
-                    <Button variant="dark">Dark</Button>
+                    <Button variant="outline-light" className="btn">
+                      Deployed
+                    </Button>
+                    <Button variant="outline-light">Github</Button>
                   </Card.Text>
                 </Card.Body>
               </Card>
