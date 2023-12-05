@@ -4,6 +4,7 @@ import Col from "react-bootstrap/Col";
 import austynCody from "../assets/workImages/austynCody.jpg";
 import Blurb from "../assets/workImages/Blurb.png";
 import Horrors from "../assets/workImages/littleSiteOfHorrors.png";
+import Seekers from "../assets/workImages/gameSeekers.png";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 
@@ -102,26 +103,36 @@ function About() {
             </Card>
           </Col>
           <Col md={6}>
-            <a href="https://little-site-of-horrors-1-f45120ac21d1.herokuapp.com/">
-              <Card
-                className="work-card"
-                style={{ backgroundColor: "rgb(20, 20, 20)" }}
-              >
-                <Card.Img
-                  variant="top"
-                  src={Horrors}
-                  className="work portfolio"
-                />
-                <Card.Body>
-                  <Card.Text className="card-text">
+            <Card
+              className="work-card"
+              style={{ backgroundColor: "rgb(20, 20, 20)" }}
+            >
+              <Card.Img
+                variant="top"
+                src={Seekers}
+                className="work portfolio"
+              />
+              <Card.Body>
+                <Card.Text className="btn card-text">
+                  <a
+                    href="https://ljkahn.github.io/videoGameProj/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <Button variant="outline-light" className="btn">
                       Deployed
                     </Button>
+                  </a>
+                  <a
+                    href="https://github.com/ljkahn/videoGameProj"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <Button variant="outline-light">Github</Button>
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </a>
+                  </a>
+                </Card.Text>
+              </Card.Body>
+            </Card>
           </Col>
         </Row>
       </div>
