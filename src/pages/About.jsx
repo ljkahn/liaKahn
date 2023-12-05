@@ -21,11 +21,11 @@ function About() {
           </div>
         </Col>
       </Row>
-      <div className="work">
+      <div className="work main-container">
         <Row className="text-align-center">
-          <Col md={4}>
+          <Col md={6}>
             <a href="https://blurb4-web-6d7dbae39646.herokuapp.com/home">
-              <Card className="card">
+              <Card className="work-card">
                 <Card.Img
                   variant="top"
                   src={Blurb}
@@ -33,34 +33,52 @@ function About() {
                 />
                 <Card.Body>
                   <Card.Text className="card-text">
-                    <Button href="https://blurb4-web-6d7dbae39646.herokuapp.com/">
-                      Blurb
-                    </Button>{" "}
-                    <Button href="https://blurb4-web-6d7dbae39646.herokuapp.com/">
-                      Blurb
-                    </Button>{" "}
+                    <Button variant="dark">Blurb</Button>
+                    <Button variant="dark">Github</Button>
                   </Card.Text>
                 </Card.Body>
               </Card>
             </a>
           </Col>
-          <Col md={4}>
+          <Col md={6}>
             <a href="https://blurb4-web-6d7dbae39646.herokuapp.com/home">
-              <Card className="card">
+              <Card className="work-card">
                 <Card.Img
                   variant="top"
                   src={austynCody}
                   className="work portfolio"
                 />
                 <Card.Body>
-                  <Card.Text className="card-text">Austyn Cody</Card.Text>
+                  <Card.Text className="btn card-text">
+                    <Button variant="dark">Dark</Button>
+                    <Button variant="dark">Dark</Button>
+                  </Card.Text>
                 </Card.Body>
               </Card>
             </a>
           </Col>
-          <Col md={4}>
+        </Row>
+        <Row>
+          <Col md={6}>
             <a href="https://little-site-of-horrors-1-f45120ac21d1.herokuapp.com/">
-              <Card className="card">
+              <Card className="work-card">
+                <Card.Img
+                  variant="top"
+                  src={Horrors}
+                  className="work portfolio"
+                />
+                <Card.Body>
+                  <Card.Text className="btn card-text">
+                    <Button variant="dark">Dark</Button>
+                    <Button variant="dark">Dark</Button>
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </a>
+          </Col>
+          <Col md={6}>
+            <a href="https://little-site-of-horrors-1-f45120ac21d1.herokuapp.com/">
+              <Card className="work-card">
                 <Card.Img
                   variant="top"
                   src={Horrors}
@@ -68,57 +86,14 @@ function About() {
                 />
                 <Card.Body>
                   <Card.Text className="card-text">
-                    Little Site Of Horrors
+                    <Button variant="dark">Dark</Button>
+                    <Button variant="dark">Dark</Button>
                   </Card.Text>
                 </Card.Body>
               </Card>
             </a>
           </Col>
         </Row>
-        {/* <Row>
-          <Col md={4}>
-            <a href="https://blurb4-web-6d7dbae39646.herokuapp.com/home">
-              <Card style={{ width: "18rem" }}>
-                <Card.Img variant="top" src={Blurb} />
-                <Card.Body>
-                  <Card.Title>Blurb</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </a>
-          </Col>
-          <Col md={4}>
-            <a href="https://blurb4-web-6d7dbae39646.herokuapp.com/home">
-              <Card style={{ width: "18rem" }}>
-                <Card.Img variant="top" src={Blurb} />
-                <Card.Body>
-                  <Card.Title>Blurb</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </a>
-          </Col>
-          <Col md={4}>
-            <a href="https://blurb4-web-6d7dbae39646.herokuapp.com/home">
-              <Card style={{ width: "18rem" }}>
-                <Card.Img variant="top" src={Blurb} />
-                <Card.Body>
-                  <Card.Title>Blurb</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </a>
-          </Col>
-        </Row> */}
       </div>
     </>
   );
