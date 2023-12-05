@@ -117,27 +117,27 @@ img.work {
 
 
 .Instagram {
-  background-color: #000000;
+  background-color: var(--background);
   color: #FFF;
 }
 .LinkedIn {
-  background-color: #000000;
+  background-color: #var(--background);
   color: #FFF;
 }
 .Github {
-  background-color: #000000;
+  background-color: #var(--background);
   color: #FFF;
 }
 
 .Message {
-  background-color: #000000;
+  background-color: #var(--background);
   color: #FFF;
 }
 .sticky-icon a i {
   background-color: #FFF;
   height: 40px;
   width: 40px;
-  color: #000;
+  color: var(--background);
   text-align: center;
   line-height: 40px;
   border-radius: 50%;
