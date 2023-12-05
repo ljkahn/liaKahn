@@ -25,7 +25,10 @@ function About() {
         <Row className="text-align-center">
           <Col md={6}>
             <a href="https://blurb4-web-6d7dbae39646.herokuapp.com/home">
-              <Card className="work-card">
+              <Card
+                className="work-card"
+                style={{ backgroundColor: "rgb(20, 20, 20)" }}
+              >
                 <Card.Img
                   variant="top"
                   src={Blurb}
@@ -42,7 +45,10 @@ function About() {
           </Col>
           <Col md={6}>
             <a href="https://blurb4-web-6d7dbae39646.herokuapp.com/home">
-              <Card className="work-card">
+              <Card
+                className="work-card"
+                style={{ backgroundColor: "rgb(20, 20, 20)" }}
+              >
                 <Card.Img
                   variant="top"
                   src={austynCody}
@@ -61,7 +67,10 @@ function About() {
         <Row>
           <Col md={6}>
             <a href="https://little-site-of-horrors-1-f45120ac21d1.herokuapp.com/">
-              <Card className="work-card">
+              <Card
+                className="work-card"
+                style={{ backgroundColor: "rgb(20, 20, 20)" }}
+              >
                 <Card.Img
                   variant="top"
                   src={Horrors}
@@ -78,7 +87,10 @@ function About() {
           </Col>
           <Col md={6}>
             <a href="https://little-site-of-horrors-1-f45120ac21d1.herokuapp.com/">
-              <Card className="work-card">
+              <Card
+                className="work-card"
+                style={{ backgroundColor: "rgb(20, 20, 20)" }}
+              >
                 <Card.Img
                   variant="top"
                   src={Horrors}
