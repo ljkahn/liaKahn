@@ -1,7 +1,7 @@
 import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import austynCody from "../assets/workImages/austynCody.jpg";
+import austynCody from "../assets/workImages/austynCody.png";
 import Blurb from "../assets/workImages/Blurb.png";
 import Horrors from "../assets/workImages/littleSiteOfHorrors.png";
 import Seekers from "../assets/workImages/gameSeekers.png";
@@ -31,24 +31,27 @@ function About() {
             >
               <Card.Img variant="top" src={Blurb} className="work portfolio" />
               <Card.Body>
-                <Card.Text className="btn card-text">
-                  <a
-                    href="https://blurb4-web-6d7dbae39646.herokuapp.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Button variant="outline-light" className="btn">
-                      Deployed
-                    </Button>
-                  </a>
-                  <a
-                    href="https://github.com/ljkahn/Blurb"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Button variant="outline-light">Github</Button>
-                  </a>
-                </Card.Text>
+                <div className="card-text">
+                  <div className="card-title"></div>
+                  <div>
+                    <a
+                      href="https://blurb4-web-6d7dbae39646.herokuapp.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Button variant="outline-light" className="btn">
+                        Deployed Site
+                      </Button>
+                    </a>
+                    <a
+                      href="https://github.com/ljkahn/Blurb"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Button variant="outline-light">Github Repo</Button>
+                    </a>
+                  </div>
+                </div>
               </Card.Body>
             </Card>
           </Col>
@@ -63,20 +66,23 @@ function About() {
                 className="work portfolio"
               />
               <Card.Body>
-                <Card.Text className="btn card-text">
-                  <a href="" target="_blank" rel="noopener noreferrer">
-                    <Button variant="outline-light" className="btn">
-                      Deployed
-                    </Button>
-                  </a>
-                  <a
-                    href="https://github.com/ljkahn/austynCody"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Button variant="outline-light">Github</Button>
-                  </a>
-                </Card.Text>
+                <div className="card-text">
+                  <div className="card-title"></div>
+                  <div>
+                    <a href="" target="_blank" rel="noopener noreferrer">
+                      <Button variant="outline-light" className="btn">
+                        Deployed Site
+                      </Button>
+                    </a>
+                    <a
+                      href="https://github.com/ljkahn/austynCody"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Button variant="outline-light">Github Repo</Button>
+                    </a>
+                  </div>
+                </div>
               </Card.Body>
             </Card>
           </Col>
@@ -93,24 +99,27 @@ function About() {
                 className="work portfolio"
               />
               <Card.Body>
-                <Card.Text className="btn card-text">
-                  <a
-                    href="https://little-site-of-horrors-1-f45120ac21d1.herokuapp.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Button variant="outline-light" className="btn">
-                      Deployed
-                    </Button>
-                  </a>
-                  <a
-                    href="https://github.com/ljkahn/littleSiteOfHorrors"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Button variant="outline-light">Github</Button>
-                  </a>
-                </Card.Text>
+                <div className="card-text">
+                  <div className="card-title"></div>
+                  <div>
+                    <a
+                      href="https://little-site-of-horrors-1-f45120ac21d1.herokuapp.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Button variant="outline-light" className="btn">
+                        Deployed Site
+                      </Button>
+                    </a>
+                    <a
+                      href="https://github.com/ljkahn/littleSiteOfHorrors"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Button variant="outline-light">Github Repo</Button>
+                    </a>
+                  </div>
+                </div>
               </Card.Body>
             </Card>
           </Col>
@@ -125,24 +134,27 @@ function About() {
                 className="work portfolio"
               />
               <Card.Body>
-                <Card.Text className="btn card-text">
-                  <a
-                    href="https://ljkahn.github.io/videoGameProj/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Button variant="outline-light" className="btn">
-                      Deployed
-                    </Button>
-                  </a>
-                  <a
-                    href="https://github.com/ljkahn/videoGameProj"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Button variant="outline-light">Github</Button>
-                  </a>
-                </Card.Text>
+                <div className="card-text">
+                  <div className="card-title"></div>
+                  <div>
+                    <a
+                      href="https://ljkahn.github.io/videoGameProj/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Button variant="outline-light" className="btn">
+                        Deployed Site
+                      </Button>
+                    </a>
+                    <a
+                      href="https://github.com/ljkahn/videoGameProj"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Button variant="outline-light">Github Repo</Button>
+                    </a>
+                  </div>
+                </div>
               </Card.Body>
             </Card>
           </Col>

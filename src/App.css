@@ -41,6 +41,15 @@ img.personal {
   display: flex;
   justify-content: center;
 }
+.card-text {
+  text-align: center;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
 
 .work-card {
   background-color: var(--background);
@@ -58,10 +67,8 @@ background-color: var(--background);
 }
 
 .btn {
-display: flex;
-flex-direction: column;
-font-size: xx-small;
-
+  margin-top: 10px;
+  /* Adjust the margin as needed */
 }
 
 img.work {
@@ -121,16 +128,16 @@ img.work {
   color: #FFF;
 }
 .LinkedIn {
-  background-color: #var(--background);
+  background-color: var(--background);
   color: #FFF;
 }
 .Github {
-  background-color: #var(--background);
+  background-color: var(--background);
   color: #FFF;
 }
 
 .Message {
-  background-color: #var(--background);
+  background-color: var(--background);
   color: #FFF;
 }
 .sticky-icon a i {
