@@ -10,8 +10,9 @@ import StickyIcon from "./components/stickyIcon";
 function App() {
   return (
     <Router>
-      <StickyIcon />
       <Header />
+      <StickyIcon />
+
       <Routes>
         <Route path="/" element={<About />} />
         <Route path="/contact" element={<Contact />} />

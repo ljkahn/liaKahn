@@ -69,7 +69,11 @@ function About() {
                 <div className="card-text">
                   <div className="card-title"></div>
                   <div>
-                    <a href="" target="_blank" rel="noopener noreferrer">
+                    <a
+                      href="https://www.austyncody.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <Button variant="outline-light" className="btn">
                         Deployed Site
                       </Button>
