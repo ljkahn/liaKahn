@@ -50,7 +50,9 @@ function Contact() {
 
   return (
     <div>
-      <h1>Contact</h1>
+      <h5 className="contact text-center">
+        For all inquiries please send me an email.
+      </h5>
       {isEmailSent && (
         <div className="alert alert-success" role="alert">
           Email sent successfully!
@@ -72,7 +74,9 @@ function Contact() {
           onChange={handleChange}
           required
         ></textarea>
-        <button type="submit">Send Message</button>
+        <button type="submit" className="button">
+          Send Message
+        </button>
       </form>
     </div>
   );
