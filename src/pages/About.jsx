@@ -7,6 +7,7 @@ import Horrors from "../assets/workImages/littleSiteOfHorrors.png";
 import Seekers from "../assets/workImages/gameSeekers.png";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
+import Pomodoro from "../assets/workImages/pomodoro.png";
 
 function About() {
   return (
@@ -91,7 +92,7 @@ function About() {
             </Card>
           </Col>
         </Row>
-        <Row>
+        <Row className="text-align-center">
           <Col md={6}>
             <Card
               className="work-card"
@@ -163,6 +164,46 @@ function About() {
             </Card>
           </Col>
         </Row>
+        <div>
+          <Row>
+            {" "}
+            <Col md={6}>
+              <Card
+                className="work-card"
+                style={{ backgroundColor: "rgb(20, 20, 20)" }}
+              >
+                <Card.Img
+                  variant="top"
+                  src={Pomodoro}
+                  className="work portfolio"
+                />
+                <Card.Body>
+                  <div className="card-text">
+                    <div className="card-title"></div>
+                    <div>
+                      <a
+                        href="https://ljkahn.github.io/videoGameProj/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <Button variant="outline-light" className="btn">
+                          Deployed Site
+                        </Button>
+                      </a>
+                      <a
+                        href="https://github.com/ljkahn/Pomodoro"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <Button variant="outline-light">Github Repo</Button>
+                      </a>
+                    </div>
+                  </div>
+                </Card.Body>
+              </Card>
+            </Col>
+          </Row>
+        </div>
       </div>
     </>
   );
