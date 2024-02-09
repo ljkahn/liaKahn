@@ -30,7 +30,7 @@ img.personal {
   margin-top: 8rem;
   margin-bottom: 10rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 125%;
+  font-size: xx-large;
   
 }
 
@@ -39,28 +39,35 @@ img.personal {
 
 
 /*WORK CARDS*/
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-.card-body {
+/* .card-body {
   display: flex;
   justify-content: center;
-}
+} */
 .card-text {
   text-align: center;
 }
 
-.card-title {
+/* .card-title {
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 10px;
-}
+} */
 
-.work-card {
+/* .work-card {
   background-color: var(--background);
   width: 31rem;
   margin-bottom: 1.5rem;
 
 
-}
+} */
+
+
 
 .main-container {
 display: flex;
@@ -73,7 +80,7 @@ background-color: var(--background);
   margin-top: 10px;
   /* Adjust the margin as needed */
 }
-
+/* 
 img.work {
   width: 29rem;
   height: 20rem;
@@ -83,8 +90,22 @@ img.work {
   margin-right: 1rem;
   border-radius: 4%;
 
-}
+} */
 
+.work-card {
+  background-color: var(--background);
+  width: 100%;
+
+ margin-bottom: 1.5rem;
+  overflow: hidden;
+} 
+
+img.work {
+  width: 100%;
+  /* Set the width of the image to fill its container */
+  height: auto;
+  /* Allow the height to adjust accordingly to maintain aspect ratio */
+}
 .portfolio:hover{ 
     color: #111;  
     background: greenyellow;  

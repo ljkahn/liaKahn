@@ -1,184 +1,177 @@
 import React from "react";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 import austynCody from "../assets/workImages/austynCody.png";
 import Blurb from "../assets/workImages/Blurb.png";
 import Horrors from "../assets/workImages/littleSiteOfHorrors.png";
 import Seekers from "../assets/workImages/gameSeekers.png";
-import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
 import Pomodoro from "../assets/workImages/pomodoro.png";
+import Card from "@mui/material/Card";
+import CardContent from "@mui/material/CardContent";
+import Button from "@mui/material/Button";
+import Typography from "@mui/material/Typography";
+import Grid from "@mui/material/Grid";
+import Container from "@mui/material/Container";
 
 function About() {
   return (
     <>
-      <Row className="mt-15 justify-content-center">
-        <Col md={6}>
-          <div className="about text-center mb-20">
-            Lia Kahn is a developer out of Denver, CO. Passionate about
-            full-stack development with emphasis in back-end development. From
-            being a motorcycle mechanic to studying neuroscience; from rock
-            climbing to audio engineering - Lia has never met a problem she
-            didn't want to solve.
-          </div>
-        </Col>
-      </Row>
+      <div className="about text-center mb-20">
+        Lia Kahn is a developer out of Denver, CO. Passionate about full-stack
+        development with emphasis in back-end development. From being a
+        motorcycle mechanic to studying neuroscience; from rock climbing to
+        audio engineering - Lia has never met a problem she didn't want to
+        solve.
+      </div>
       <div className="work main-container">
-        <Row className="text-align-center">
-          <Col md={6}>
-            <Card
-              className="work-card"
-              style={{ backgroundColor: "rgb(20, 20, 20)" }}
-            >
-              <Card.Img variant="top" src={Blurb} className="work portfolio" />
-              <Card.Body>
-                <div className="card-text">
-                  <div className="card-title"></div>
-                  <div>
-                    <a
-                      href="https://blurb4-web-6d7dbae39646.herokuapp.com/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Button variant="outline-light" className="btn">
-                        Deployed Site
-                      </Button>
-                    </a>
-                    <a
-                      href="https://github.com/ljkahn/Blurb"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Button variant="outline-light">Github Repo</Button>
-                    </a>
-                  </div>
-                </div>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col md={6}>
-            <Card
-              className="work-card"
-              style={{ backgroundColor: "rgb(20, 20, 20)" }}
-            >
-              <Card.Img
-                variant="top"
-                src={austynCody}
-                className="work portfolio"
-              />
-              <Card.Body>
-                <div className="card-text">
-                  <div className="card-title"></div>
-                  <div>
-                    <a
-                      href="https://www.austyncody.com"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Button variant="outline-light" className="btn">
-                        Deployed Site
-                      </Button>
-                    </a>
-                    <a
-                      href="https://github.com/ljkahn/austynCody"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Button variant="outline-light">Github Repo</Button>
-                    </a>
-                  </div>
-                </div>
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
-        <Row className="text-align-center">
-          <Col md={6}>
-            <Card
-              className="work-card"
-              style={{ backgroundColor: "rgb(20, 20, 20)" }}
-            >
-              <Card.Img
-                variant="top"
-                src={Horrors}
-                className="work portfolio"
-              />
-              <Card.Body>
-                <div className="card-text">
-                  <div className="card-title"></div>
-                  <div>
-                    <a
-                      href="https://little-site-of-horrors-1-f45120ac21d1.herokuapp.com/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Button variant="outline-light" className="btn">
-                        Deployed Site
-                      </Button>
-                    </a>
-                    <a
-                      href="https://github.com/ljkahn/littleSiteOfHorrors"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Button variant="outline-light">Github Repo</Button>
-                    </a>
-                  </div>
-                </div>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col md={6}>
-            <Card
-              className="work-card"
-              style={{ backgroundColor: "rgb(20, 20, 20)" }}
-            >
-              <Card.Img
-                variant="top"
-                src={Seekers}
-                className="work portfolio"
-              />
-              <Card.Body>
-                <div className="card-text">
-                  <div className="card-title"></div>
-                  <div>
-                    <a
-                      href="https://ljkahn.github.io/videoGameProj/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Button variant="outline-light" className="btn">
-                        Deployed Site
-                      </Button>
-                    </a>
-                    <a
-                      href="https://github.com/ljkahn/videoGameProj"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Button variant="outline-light">Github Repo</Button>
-                    </a>
-                  </div>
-                </div>
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
-        <div>
-          <Row>
-            {" "}
-            <Col md={6}>
-              <Card
-                className="work-card"
-                style={{ backgroundColor: "rgb(20, 20, 20)" }}
-              >
-                <Card.Img
-                  variant="top"
-                  src={Pomodoro}
-                  className="work portfolio"
+        <Container>
+          <Grid container spacing={3}>
+            <Grid item xs={12} sm={6} md={4}>
+              <Card className="work-card">
+                <img
+                  src={Blurb}
+                  alt="Blurb"
+                  className="work portfolio center-image"
                 />
-                <Card.Body>
-                  <div className="card-text">
+                <CardContent style={{ padding: "16px" }}>
+                  <Typography
+                    variant="h5"
+                    component="div"
+                    className="card-text"
+                  >
+                    <div className="card-title"></div>
+                    <div>
+                      <a
+                        href="https://blurb4-web-6d7dbae39646.herokuapp.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <Button
+                          variant="outlined"
+                          className="btn"
+                          style={{ color: "white", borderColor: "white" }}
+                        >
+                          Deployed Site
+                        </Button>
+                      </a>
+                      <a
+                        href="https://github.com/ljkahn/Blurb"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <Button
+                          variant="outlined"
+                          style={{ color: "white", borderColor: "white" }}
+                        >
+                          Github Repo
+                        </Button>
+                      </a>
+                    </div>
+                  </Typography>
+                </CardContent>
+              </Card>
+            </Grid>
+            <Grid item xs={12} sm={6} md={4}>
+              <Card className="work-card">
+                <img
+                  src={austynCody}
+                  alt="Austyn Cody"
+                  className="work portfolio center-image"
+                />
+                <CardContent style={{ padding: "16px" }}>
+                  <Typography
+                    variant="h5"
+                    component="div"
+                    className="card-text"
+                  >
+                    <div className="card-title"></div>
+                    <div>
+                      <a
+                        href="https://www.austyncody.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <Button
+                          variant="outlined"
+                          className="btn"
+                          style={{ color: "white", borderColor: "white" }}
+                        >
+                          Deployed Site
+                        </Button>
+                      </a>
+                      <a
+                        href="https://github.com/ljkahn/austynCody"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <Button
+                          variant="outlined"
+                          style={{ color: "white", borderColor: "white" }}
+                        >
+                          Github Repo
+                        </Button>
+                      </a>
+                    </div>
+                  </Typography>
+                </CardContent>
+              </Card>
+            </Grid>
+            <Grid item xs={12} sm={6} md={4}>
+              <Card className="work-card">
+                <img
+                  src={Horrors}
+                  alt="Little Site of Horrors"
+                  className="work portfolio center-image"
+                />
+                <CardContent style={{ padding: "16px" }}>
+                  <Typography
+                    variant="h5"
+                    component="div"
+                    className="card-text"
+                  >
+                    <div className="card-title"></div>
+                    <div>
+                      <a
+                        href="https://little-site-of-horrors-1-f45120ac21d1.herokuapp.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <Button
+                          variant="outlined"
+                          className="btn"
+                          style={{ color: "white", borderColor: "white" }}
+                        >
+                          Deployed Site
+                        </Button>
+                      </a>
+                      <a
+                        href="https://github.com/ljkahn/littleSiteOfHorrors"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <Button
+                          variant="outlined"
+                          style={{ color: "white", borderColor: "white" }}
+                        >
+                          Github Repo
+                        </Button>
+                      </a>
+                    </div>
+                  </Typography>
+                </CardContent>
+              </Card>
+            </Grid>
+            <Grid item xs={12} sm={6} md={4}>
+              <Card className="work-card">
+                <img
+                  src={Seekers}
+                  alt="Game Seekers"
+                  className="work portfolio center-image"
+                />
+                <CardContent style={{ padding: "16px" }}>
+                  <Typography
+                    variant="h5"
+                    component="div"
+                    className="card-text"
+                  >
                     <div className="card-title"></div>
                     <div>
                       <a
@@ -186,7 +179,56 @@ function About() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <Button variant="outline-light" className="btn">
+                        <Button
+                          variant="outlined"
+                          className="btn"
+                          style={{ color: "white", borderColor: "white" }}
+                        >
+                          Deployed Site
+                        </Button>
+                      </a>
+                      <a
+                        href="https://github.com/ljkahn/videoGameProj"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <Button
+                          variant="outlined"
+                          style={{ color: "white", borderColor: "white" }}
+                        >
+                          Github Repo
+                        </Button>
+                      </a>
+                    </div>
+                  </Typography>
+                </CardContent>
+              </Card>
+            </Grid>
+            <Grid item xs={12} sm={6} md={4}>
+              <Card className="work-card">
+                <img
+                  src={Pomodoro}
+                  alt="Pomodoro"
+                  className="work portfolio center-image"
+                />
+                <CardContent style={{ padding: "16px" }}>
+                  <Typography
+                    variant="h5"
+                    component="div"
+                    className="card-text"
+                  >
+                    <div className="card-title"></div>
+                    <div>
+                      <a
+                        href="https://ljkahn.github.io/videoGameProj/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <Button
+                          variant="outlined"
+                          className="btn"
+                          style={{ color: "white", borderColor: "white" }}
+                        >
                           Deployed Site
                         </Button>
                       </a>
@@ -195,15 +237,20 @@ function About() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <Button variant="outline-light">Github Repo</Button>
+                        <Button
+                          variant="outlined"
+                          style={{ color: "white", borderColor: "white" }}
+                        >
+                          Github Repo
+                        </Button>
                       </a>
                     </div>
-                  </div>
-                </Card.Body>
+                  </Typography>
+                </CardContent>
               </Card>
-            </Col>
-          </Row>
-        </div>
+            </Grid>
+          </Grid>
+        </Container>
       </div>
     </>
   );
