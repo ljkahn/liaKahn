@@ -96,15 +96,26 @@ img.work {
   background-color: var(--background);
   width: 100%;
 
+  margin-right: 1.5rem;
  margin-bottom: 1.5rem;
   overflow: hidden;
 } 
-
 img.work {
-  width: 100%;
-  /* Set the width of the image to fill its container */
+  display: block;
+  /* Ensures the image is treated as a block-level element */
+  max-width: 90%;
+  /* Example max-width, adjust as needed */
   height: auto;
-  /* Allow the height to adjust accordingly to maintain aspect ratio */
+  /* Maintain aspect ratio */
+  margin-left: auto;
+  margin-right: auto;
+}
+img.work.center-image {
+  display: block !important;
+  max-width: 90% !important;
+  height: auto !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 .portfolio:hover{ 
     color: #111;  
