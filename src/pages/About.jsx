@@ -283,7 +283,7 @@ function About() {
                   >
                     <div className="card-title"></div>
                     <div>
-                      <a href="" target="_blank" rel="noopener noreferrer">
+                      {/* <a href="" target="_blank" rel="noopener noreferrer">
                         <Button
                           variant="outlined"
                           className="btn"
@@ -291,7 +291,7 @@ function About() {
                         >
                           Deployed Site
                         </Button>
-                      </a>
+                      </a> */}
                       <a
                         href="https://github.com/ljkahn/JapaneseTattooMeanings"
                         target="_blank"
