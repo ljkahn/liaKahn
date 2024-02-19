@@ -10,6 +10,7 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid";
 import Container from "@mui/material/Container";
+import Japanese from "../assets/workImages/japaneseTattoo.png";
 
 function About() {
   return (
@@ -25,7 +26,10 @@ function About() {
         <Container>
           <Grid container spacing={3}>
             <Grid item xs={12} sm={6} md={4}>
-              <Card className="work-card">
+              <Card
+                className="work-card"
+                style={{ backgroundColor: "#191919" }}
+              >
                 <img
                   src={Blurb}
                   alt="Blurb"
@@ -70,7 +74,10 @@ function About() {
               </Card>
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
-              <Card className="work-card">
+              <Card
+                className="work-card"
+                style={{ backgroundColor: "#191919" }}
+              >
                 <img
                   src={austynCody}
                   alt="Austyn Cody"
@@ -115,7 +122,10 @@ function About() {
               </Card>
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
-              <Card className="work-card">
+              <Card
+                className="work-card"
+                style={{ backgroundColor: "#191919" }}
+              >
                 <img
                   src={Horrors}
                   alt="Little Site of Horrors"
@@ -160,7 +170,10 @@ function About() {
               </Card>
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
-              <Card className="work-card">
+              <Card
+                className="work-card"
+                style={{ backgroundColor: "#191919" }}
+              >
                 <img
                   src={Seekers}
                   alt="Game Seekers"
@@ -205,7 +218,10 @@ function About() {
               </Card>
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
-              <Card className="work-card">
+              <Card
+                className="work-card"
+                style={{ backgroundColor: "#191919" }}
+              >
                 <img
                   src={Pomodoro}
                   alt="Pomodoro"
@@ -234,6 +250,50 @@ function About() {
                       </a>
                       <a
                         href="https://github.com/ljkahn/Pomodoro"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <Button
+                          variant="outlined"
+                          style={{ color: "white", borderColor: "white" }}
+                        >
+                          Github Repo
+                        </Button>
+                      </a>
+                    </div>
+                  </Typography>
+                </CardContent>
+              </Card>
+            </Grid>
+            <Grid item xs={12} sm={6} md={4}>
+              <Card
+                className="work-card"
+                style={{ backgroundColor: "#191919" }}
+              >
+                <img
+                  src={Japanese}
+                  alt="Japanese Tattoo Meanings/History App"
+                  className="work portfolio center-image"
+                />
+                <CardContent style={{ padding: "16px" }}>
+                  <Typography
+                    variant="h5"
+                    component="div"
+                    className="card-text"
+                  >
+                    <div className="card-title"></div>
+                    <div>
+                      <a href="" target="_blank" rel="noopener noreferrer">
+                        <Button
+                          variant="outlined"
+                          className="btn"
+                          style={{ color: "white", borderColor: "white" }}
+                        >
+                          Deployed Site
+                        </Button>
+                      </a>
+                      <a
+                        href="https://github.com/ljkahn/JapaneseTattooMeanings"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
