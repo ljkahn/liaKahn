@@ -236,7 +236,7 @@ function About() {
                     <div className="card-title"></div>
                     <div>
                       <a
-                        href="https://ljkahn.github.io/videoGameProj/"
+                        // href="https://ljkahn.github.io/videoGameProj/"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
