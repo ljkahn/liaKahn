@@ -236,7 +236,7 @@ function About() {
                     <div className="card-title"></div>
                     <div>
                       <a
-                        // href="https://ljkahn.github.io/videoGameProj/"
+                        href="https://pomodoroclock94.netlify.app/"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
